@@ -1,3 +1,6 @@
+# 实验结果
+![result](result.jpg)
+
 # 垃圾分类视觉识别系统 🗑️
 
 这是一个基于深度学习的**垃圾分类视觉识别**项目，使用 MobileNet V2 预训练模型进行迁移学习，能够自动识别和分类不同类型的垃圾。
@@ -225,19 +228,3 @@ model.classifier[1] = nn.Linear(model.last_channel, 6)
 - [PyTorch 官方文档](https://pytorch.org)
 - [Torchvision 模型库](https://pytorch.org/vision/stable/models.html)
 - [MobileNet V2 论文](https://arxiv.org/abs/1801.04381)
-
-## 📄 许可证
-
-本项目仅供学习使用。
-
-## 👤 作者
-
-**Sherryhana**
-
----
-
-## 📞 反馈与建议
-
-如有任何问题或建议，欢迎通过 GitHub Issues 反馈！
-
-**最后更新**：2026年6月
